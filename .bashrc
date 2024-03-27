@@ -1,6 +1,6 @@
-source "$(blesh-share)"/ble.sh --attach=none
+[[ $- == *i* ]] && source $HOME/.local/share/blesh/ble.sh --noattach
 
-export PATH=$HOME/bin:$HOME/.local/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:$HOME/.local/share:$HOME/.cargo/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export EDITOR="nvim"
