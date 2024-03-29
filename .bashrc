@@ -1,6 +1,6 @@
 source "$(blesh-share)"/ble.sh --attach=none
 
-export PATH=$HOME/bin:$HOME/.local/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:$HOME/.cargo/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export EDITOR="nvim"
