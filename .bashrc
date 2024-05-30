@@ -2,7 +2,6 @@
 
 export PATH=$HOME/bin:$HOME/.local/bin:$HOME/.local/share:$HOME/.cargo/bin:$PATH
 
-# Path to your oh-my-zsh installation.
 export EDITOR="nvim"
 export LEDGER_FILE="$HOME/Sync/2024.journal"
 
